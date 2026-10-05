@@ -63,7 +63,7 @@ export function About() {
         <div className="border-4 border-ink rounded-[2rem] bg-teal aspect-square grid place-items-center rotate-[-3deg] shadow-[6px_6px_0_#0E1A4F]"><span className="font-display text-7xl text-cream">NP</span></div>
         <div>
           <h2 className="text-4xl md:text-5xl">The person behind ChunkyCreate</h2>
-          <p className="mt-4 text-lg"><b>I'm Nitish Pandey.</b> I've spent more than a decade in FinTech and payments, in sales, business development, merchant payments and partnerships, and I've seen up close how technology solves real business problems.</p>
+          <p className="mt-4 text-lg"><b>I'm Chunky.</b> I've spent more than a decade in FinTech and payments, in sales, business development, merchant payments and partnerships, and I've seen up close how technology solves real business problems.</p>
           <p className="mt-3 text-lg">Outside work I explore AI, technology, content creation and building digital products. ChunkyCreate is my personal creative space where I turn ideas into practical things.</p>
           <blockquote className="mt-5 border-l-8 border-orange pl-4 font-display text-2xl md:text-3xl leading-tight">“I don't just want to build with technology. I want to build things that are actually useful.”</blockquote>
         </div>

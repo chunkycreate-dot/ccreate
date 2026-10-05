@@ -1,0 +1,13 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+body{@apply bg-cream text-ink font-body antialiased}
+h1,h2,h3{@apply font-display tracking-wide uppercase leading-[0.95]}
+:focus-visible{outline:4px solid #FFC21A;outline-offset:3px}
+@layer components{
+ .card{@apply border-4 border-ink rounded-3xl shadow-[6px_6px_0_#0E1A4F] transition-transform duration-200 hover:-translate-y-1 hover:-rotate-[0.6deg]}
+ .btn{@apply inline-block border-4 border-ink rounded-xl px-6 py-3 font-display uppercase tracking-wide text-lg shadow-[4px_4px_0_#0E1A4F] transition-all hover:-translate-y-0.5 hover:shadow-[6px_6px_0_#0E1A4F] active:translate-y-1 active:shadow-none}
+ .wrap{@apply mx-auto max-w-6xl px-5}
+}
+@keyframes bob{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-10px) rotate(4deg)}}
+@keyframes pop{from{opacity:0;transform:translateY(24px) scale(.96)}to{opacity:1;transform:none}}
+.bob{animation:bob 5s ease-in-out infinite}.pop{animation:pop .7s cubic-bezier(.2,1.4,.4,1) both}
+@media (prefers-reduced-motion:reduce){.bob,.pop{animation:none}}
